@@ -1,46 +1,50 @@
-*{
+* {
     margin: 0;
     padding: 0;
+
 }
-section{
+
+section {
     padding: 80px 8%;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     background-color: white;
     align-items: center;
     padding: 0px 8%;
 }
-ul{
+
+ul {
     display: flex;
     list-style: none;
     gap: 20px;
-     margin-left: 300px;
+    margin-left: 300px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #575757;
 }
-.cmo-color{
-  background-color: #1D4ED8; 
-  color: #FFFFFF;
-  width: 170px;
-  height: 30px;
-  margin-left: 32%;
-   border-radius: 5px;
-   border: none;
-   cursor: pointer;
+
+.cmo-color {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    width: 170px;
+    height: 30px;
+    margin-left: 32%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
-header{
+
+header {
     background-image:
-        linear-gradient(
-            to right,
+        linear-gradient(to right,
             rgba(0, 0, 0, 0.87) 0%,
             rgba(0, 0, 0, 0.5) 40%,
-            rgba(10, 9, 9, 0) 100%
-        ),
+            rgba(10, 9, 9, 0) 100%),
         url("./assets/banner.jpg");
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.158),rgba(0, 0, 0, 0.705)), url(./assets/banner.jpg); */
     height: 100vh;
@@ -52,75 +56,167 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.header-container{
+
+/* main{
+    background-color: #575757; */
+
+.header-container {
     color: white;
     text-align: center;
     margin-bottom: 50px;
     margin-top: 70px;
 }
 
-.header-container1{
+.header-container1 {
     text-align: center;
 }
-.header-container1 button{
+
+.header-container1 button {
     padding: 15px 50px;
     border: none;
     border-radius: 8px;
-    background:#1D4ED8; 
+    background: #1D4ED8;
     color: white;
     cursor: pointer;
     margin-bottom: 65px;
 }
+
 .header-container p,
-.header-container h4{
+.header-container h4 {
     margin-top: 20px;
 }
-.header-container h1{
+
+.header-container h1 {
     font-size: 60px;
 }
 
-.speakers{
+.speakers {
     padding: 80px 8%;
 }
 
-.speakers h1{
+.speakers h1 {
     text-align: center;
     font-size: 55px;
     margin-bottom: 50px;
 }
 
-.speaker-container{
+.speaker-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
-.speaker-card{
+.speaker-card {
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.speaker-card img{
+.speaker-card img {
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
 
-.speaker-info{
+.speaker-info {
     padding: 20px;
 }
 
-.speaker-info span{
+.speaker-info span {
     color: #2563eb;
     font-size: 13px;
     font-weight: bold;
 }
 
-.speaker-info h2{
+.speaker-info h2 {
     margin: 10px 0;
 }
 
-.speaker-info p{
+.speaker-info p {
     color: #666;
+}
+
+.container5 {
+    padding: 90px 15%;
+    text-align: center;
+}
+
+.container5 h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.container5 p {
+    color: #777;
+    margin-bottom: 50px;
+}
+
+.container5-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+    background: #fff;
+}
+
+.box span {
+    color: #777;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.box h2 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.box small {
+    color: #888;
+}
+
+.box ul {
+    list-style: disc;
+    margin: 30px 0;
+    padding-left: 20px;
+    display: block;
+
+}
+
+.box button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #2563eb;
+    background: #fff;
+    color: #2563eb;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.box ul li::marker,
+.box-pro ul li::marker{
+    color: #2563eb;
+}
+
+.box-pro {
+    background: #0D1B2A;
+    color: white;
+}
+
+.box-pro span,
+.box-pro small,
+.box-pro ul li {
+    color: #d1d5db;
+}
+
+.box-pro button {
+    background: #2563eb;
+    color: white;
+    border: none;
 }
