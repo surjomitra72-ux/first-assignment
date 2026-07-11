@@ -220,3 +220,47 @@ header {
     color: white;
     border: none;
 }
+
+.footer{
+    background:#111827;
+    color:#fff;
+    padding:40px 8%;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-logo img{
+    width:170px;
+   color: #b9820b;
+}
+
+.social-links{
+    display:flex;
+    gap:20px;
+}
+
+.social-links a{
+    color:#fff;
+    font-size:22px;
+}
+
+.social-links a:hover{
+    color: #fff;
+}
+
+.footer hr{
+    margin:30px 0 20px;
+    border:none;
+    height:1px;
+    background:#3b3b3b;
+}
+
+.copyright{
+    text-align:center;
+    color:#bdbdbd;
+    font-size:15px;
+}
