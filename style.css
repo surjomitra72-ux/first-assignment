@@ -16,7 +16,7 @@ nav {
     padding: 0px 8%;
 }
 
-ul {
+ nav ul {
     display: flex;
     list-style: none;
     gap: 20px;
@@ -259,8 +259,27 @@ header {
     background:#3b3b3b;
 }
 
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .copyright{
-    text-align:center;
-    color:#bdbdbd;
-    font-size:15px;
+    color: #d1d5db;
+    font-size: 15px;
+}
+.copyright2{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.copyright2 li a{
+    text-decoration: none;
+    color: #bdbdbd;
+}
+
+.copyright2 li a:hover{
+    color: #2563eb;
 }
